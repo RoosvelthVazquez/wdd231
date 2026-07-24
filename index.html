@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Styles sheets  -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <!-- ================HEADER=============== -->
+    <header>
+        <img src="images/logo1.svg" alt="Site Logo" width="70">
+        <span>Roosvelth Vazquez</span>
+        <button id="ham-btn" class="hamburger"></button>
+        </nav>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Assignment</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h1>Home</h1>
+        <section class="section-one">
+            <h2>About Me</h2>
+            <p>I am a curious, disciplined, and goal-oriented person who enjoys learning new skills and turning them into real
+            opportunities. I like teaching, technology, and software development, and I am always looking for practical ways to
+            improve my knowledge and build my career. I have taught myself many things, especially English, through consistent
+            effort and dedication. I believe that hard work and continuous learning are the keys to achieving my long-term goals,
+            and I always try to become a better version of myself.
+            </p>
+        </section>
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/studentphoto.jpeg" alt="Student Photo" width="200px">
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+
+            <div class="buttons">
+                <button id="all-btn">All Courses</button>
+                <button id="wdd-btn">WDD Courses</button>
+                <button id="cse-btn">CSE Courses</button>
+            </div>
+
+            <p>The total number of course listed below is: <span id="credits"></span></p>
+
+            <div id="course-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="" target="_blank"><img src="images/linkedin.svg" alt="Linked In" width="16"></a>
+            <a href="" target="_blank"><img src="images/github.svg" alt="GitHub" width="16"></a>
+            <a href="" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="16"></a>
+            <a href="" target="_blank"><img src="images/instagram.svg" alt="Instagram" width="16"></a>
+        </div>
+        <p id="year">/p>
+        <p>Roosvelth Vazquez</p>
+        <p>Veracruz, Mexico</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/navigation.js"></script>
+</body>
+
+</html>
