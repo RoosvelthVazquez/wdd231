@@ -12,7 +12,7 @@ navbutton.addEventListener('click', () => {
 const full = document.querySelector("#year");
 
 const today = new Date();
-year.innerHTML = `Copyright <span class="highlight">${today.getFullYear()}</span>`;
+year.innerHTML = `©️ <span class="highlight">${today.getFullYear()}</span>`;
 
 
 // LAST MODIFIED

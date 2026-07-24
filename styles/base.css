@@ -42,6 +42,7 @@ header span {
 
 .navigation {
     display: none;
+    background-color: #e07a5f;;
 }
 
 .navigation.show {
@@ -75,14 +76,13 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: #e07a5f;
+    background-color: #eee;
 }
 
 /* ============SITE WEB============ */
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-    border: red dotted 1px;
 }
 
 .container {
@@ -97,7 +97,11 @@ h1 {
 }
 
 section {
-    background-color: lightgray;
+    background-color: #eee;
+}
+
+.courses {
+    background-color: transparent;
 }
 
 section p {
@@ -105,6 +109,7 @@ section p {
 }
 
 section h2 {
+    margin-top: 0;
     background-color: #e07a5f;
     font-size: medium;
     text-align: center;
@@ -116,6 +121,10 @@ section img {
     margin: 0 auto;
 }
 
+.credits {
+    text-align: center;
+}
+
 /* SECION 3 */
 
 .buttons {
@@ -123,6 +132,15 @@ section img {
     justify-content: center;
     gap: 1rem;
     margin: 1 rem 0;
+}
+
+button {
+    background-color: #d77a52;
+    color: white;
+    border: 0;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 15px;
 }
 
 #course-container {
