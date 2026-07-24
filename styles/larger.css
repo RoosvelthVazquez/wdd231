@@ -32,8 +32,6 @@
         grid-template-columns: 2fr 1fr;
     }
 
-    
-
     .courses {
         grid-column: 1 /3;
     }
