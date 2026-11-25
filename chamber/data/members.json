@@ -1,0 +1,81 @@
+{
+    "members": [
+        {
+            "name": "Tecnología del Golfo",
+            "address": "Av. 20 de Noviembre 125",
+            "state": "Poza Rica, Veracruz(VER),93260",
+            "phone": "52 782 123 4567",
+            "email": "contacto@tecnologiadelgolfo.example",
+            "websiteURL": "https://www.TecnologiaDelGolfo.com/",
+            "imageName": "placeholder",
+            "imageurl": "images/laptop.svg",
+            "memberLevel": 3
+        },
+        {
+            "name": "Café Veracruzano",
+            "address": "Calle Independencia 45",
+            "state": "Xalapa, Veracruz(VER),91000",
+            "phone": "(937) 849-9458",
+            "email": "info@CafeVeracruzano.com/",
+            "websiteURL": "https://www.CafeVeracruzano.com/",
+            "imageName": "placeholder",
+            "imageurl": "images/laptop.svg",
+            "memberLevel": 1
+        },
+        {
+            "name": "Soluciones Digitales MX",
+            "address": "Av. Reforma 210",
+            "state": "Ciudad de México(CDMX),06600",
+            "phone": "52 55 3456 7890",
+            "email": "contacto@solucionesdigitales.example",
+            "websiteURL": "https://solucionesdigitales.example/",
+            "imageName": "placeholder",
+            "imageurl": "images/laptop.svg",
+            "memberLevel": 2
+        },
+        {
+            "name": "Constructora Sierra Norte",
+            "address": "Blvd. 5 de Mayo 320",
+            "state": "Puebla, Puebla(PUE),72000",
+            "phone": "+52 222 456 7890",
+            "email": "ventas@sierranorte.example",
+            "websiteURL": "https://sierranorte.example/",
+            "imageName": "placeholder",
+            "imageurl": "images/laptop.svg",
+            "memberLevel": 3
+        },
+        {
+            "name": "Transportes del Pacífico",
+            "address": "Av. Vallarta 850",
+            "state": "Guadalajara, Jalisco(JAL),44100",
+            "phone": "+52 33 5678 9012",
+            "email": "info@transportespacifico.example",
+            "websiteURL": "https://transportespacifico.example/",
+            "imageName": "placeholder",
+            "imageurl": "images/laptop.svg",
+            "memberLevel": 2
+        },
+        {
+            "name": "EcoVerde México",
+            "address": "Calle 60 215",
+            "state": "Mérida, Yucatán(YUC),97000",
+            "phone": "+52 999 678 1234",
+            "email": "contacto@ecoverde.example",
+            "websiteURL": "https://ecoverde.example/",
+            "imageName": "placeholder",
+            "imageurl": "images/laptop.svg",
+            "memberLevel": 1
+        },
+        {
+            "name": "Innovación Empresarial del Norte",
+            "address": "Av. Constitución 450",
+            "state": "Monterrey, Nuevo León(NL),64000",
+            "phone": "+52 81 7890 1234",
+            "email": "contacto@innovacionnorte.example",
+            "websiteURL": "https://innovacionnorte.example/",
+            "imageName": "placeholder",
+            "imageurl": "images/laptop.svg",
+            "memberLevel": 3
+        }
+    ]
+}

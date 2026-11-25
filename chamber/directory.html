@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Chamber of Commerce directory page for WDD 231 front-end-dev">
+    <meta name="author" content="Ryan Eakin">
+
+    <meta property="og:title" content="Directory | Chamber of Commerce">
+    <meta property="og:description" content="Chamber of Commerce directory page for WDD 231 front-end-dev">
+    <meta property="og:image" content="https://ryaneakin.github.io/wdd231/chamber/images/Screenshot-directory.png">
+    <meta property="og:image:height" content="1600">
+    <meta property="og:image:width" content="800">
+    <meta property="og:url" content="https://ryaneakin.github.io/wdd231/chamber/directory.html">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/larger-directory.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/dates.mjs" defer></script>
+    <script src="scripts/directory.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+
+    <title>Directory | Mexico Chamber of Commerce</title>
+</head>
+
+<body class="light-mode">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo1 copy.svg" alt="logo" width="35" height="35"> MX Chamber of
+                    Commerce</a>
+                <div class="toggles">
+                    <a href="index.html">Home</a>
+                    <a href="discover.html">Discover</a>
+                    <a href="#" class="active">Directory</a>
+                    <a href="join.html">Join</a>
+                    <button id="mode-toggle"><img src="images/night-mode.png" alt="light/dark-toggle"></button>
+                    <button aria-label="Menu" id="menu"></button>
+                </div>
+            </div>
+            <div class="bar">
+                <a href="index.html">Home</a>
+                <a href="discover.html">Discover</a>
+                <a href="#" class="active">Directory</a>
+                <a href="join.html">Join</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Directory</h1>
+        <button class="list-view">Toggle List View</button>
+        <div class="cards" id="compact"></div>
+    </main>
+    <footer>
+        <div id="footer-left">
+            <p>MX Chamber of Commerce</p>
+            <p>34 5 Mayo</p> <!--address-->
+            <p>Poza Rica, Veracruz, MX</p> <!--state,city-->
+            <p>Small Business Email: smallbusiness@uschamber.com</p> <!--email-->
+            <p>782-197-2020 </p> <!--phone number-->
+        </div>
+        <div class="socialmedia">
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram" width="80" height="80" loading="lazy">
+            </a>
+            <a href="https://www.github.com">
+                <img src="images/github.svg" alt="GitHub" width="80" height="80" loading="lazy">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="images/linkedin.svg" alt="Linkedin" width="80" height="80" loading="lazy">
+            </a>
+        </div>
+        <div id="footer-right">
+            <p>WDD231 Class Project</p>
+            <p>Roosvelth Vazquez</p>
+            <p><span id="currentYear"></span> Chamber of Commerce</p>
+            <p></p><span id="lastModified"></span>
+        </div>
+
+    </footer>
+</body>
+
+</html>

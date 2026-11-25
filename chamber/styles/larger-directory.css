@@ -1,0 +1,178 @@
+@media screen and (min-width: 1025px) {
+
+    /*large*/
+
+    .discover-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .discover-grid section {
+        display: grid;
+        grid-template-areas:
+            "name name"
+            "birdsView description"
+            "birdsView description "
+            "birdsView location"
+            "press press"
+        ;
+
+
+    }
+
+
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /*Class Rules Below*/
+
+    .toggles a {
+        display: flex;
+        margin-right: 16px;
+    }
+
+    .toggles a:hover {
+        background-color: #011b3d;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .bar.open {
+        display: none;
+    }
+
+    .levels {
+        display: flex;
+        flex-direction: column;
+        flex: .5;
+        width: fit-content;
+        margin-bottom: 1%;
+
+    }
+
+    .join {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .socialmedia {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        justify-self: center;
+        width: 310px;
+    }
+
+    .socialmedia a {
+        text-decoration: none;
+    }
+
+    .socialmedia img {
+        max-width: 100px;
+        max-height: fit-content;
+    }
+
+
+    /*End of Class Rules*/
+
+    /*Start of ID Rules*/
+    #list-view {
+        background-color: var(--sub-heading-color);
+        color: var(--text-color);
+        border-radius: 15px;
+        font-size: large;
+        width: 30%;
+        height: 50px;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    #compact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #compact section {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0.25rem;
+        width: 100%;
+
+    }
+
+    #compact img {
+        display: none;
+    }
+
+    #compact h2 {
+        flex: 0 0 25%;
+        /* Fixed width for the name */
+        font-size: 1rem;
+        text-align: left;
+    }
+
+
+    #compact div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #compact .email {
+        flex: 1;
+        display: flex;
+        white-space: nowrap;
+    }
+
+    #compact .phone,
+    #compact .URL {
+        flex: 1;
+        display: flex;
+        white-space: nowrap;
+    }
+
+    #course-cert {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+
+    #course-cert li {
+        background-color: orange;
+        color: black;
+        border-radius: 15px;
+        height: 50px;
+        width: 30%;
+        font-size: large;
+        align-content: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #footer-left {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    #footer-right {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    /*End of ID Rules*/
+
+}
